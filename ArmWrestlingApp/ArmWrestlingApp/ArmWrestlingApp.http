@@ -1,0 +1,6 @@
+@ArmWrestlingApp_HostAddress = http://localhost:5127
+
+GET {{ArmWrestlingApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
