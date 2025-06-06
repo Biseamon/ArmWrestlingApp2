@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArmWrestlingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb0c3642467a3444bfad1a8351752fd00516f459")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9ef5cb071bf717ba4cee890c0d227104d3be90a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArmWrestlingApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArmWrestlingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

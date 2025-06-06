@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio cache files
+.vs/
+
+# Rider IDE files
+.idea/
+
+# Dotnet publish output
+publish/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+# but if you use packages.config, uncomment the next line
+# packages/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# .NET Core
+*.dll
+*.exe
+*.app
+
+# Entity Framework migration files (optional, if you want to ignore generated code)
+# Migrations/
+
+# Others you might want to ignore
+*.pidb
+*.svclog
+*.pdb
