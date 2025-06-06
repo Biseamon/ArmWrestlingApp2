@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: marik
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: armwrestling
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  api:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: db
+      DB_USER: testuser
+      DB_PASS: 123456
+      DB_NAME: armwrestling
+
+volumes:
+  pgdata:
+
