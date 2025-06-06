@@ -1,0 +1,71 @@
+# React Native
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# React Native cache
+.expo/
+.expo-shared/
+react-native/ReactCommon/hermes/build/
+
+# Metro
+.metro-cache/
+dist/
+tmp/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/DerivedData/
+*.xcworkspace
+*.xcuserdata
+ios/.bundle/
+ios/.expo/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+*.iml
+.gradle/
+local.properties
+
+# macOS
+.DS_Store
+
+# Misc
+.env
+.env.*
+coverage/
+*.log
+*.keystore
+*.jks
+
+# VS Code
+.vscode/
+
+# Watchman
+.watchmanconfig
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+
+# Buck
+buck-out/
+\.buckd/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Firebase/Google Services (add if you're using them)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
